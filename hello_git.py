@@ -1,3 +1,4 @@
+import os
 import b
 print('Hello, Git')
 print('Indexing - it is important')
@@ -11,3 +12,7 @@ while ind <= 9:
         ind += 1
 
 print(b.any_func(2, sum))
+print(f'\nYour current directory: {os.getcwd()}')
+
+s = 'Version Control System'
+print(f'{s} - length is {len(s)} characters')
