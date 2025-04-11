@@ -1,13 +1,13 @@
 import b
+import os
+
 print('Hello, git!')
 print('Indexing it\'s important')
 
-ind = 0
-sum = 0
-
-while ind <= 9:
-    sum += ind
-    print(sum)
-    ind += 1
+for num in range(10):
+    print(num,end=' ')
 
 print(b.spam('master'))
+
+print(f'\nYour current directory: {os.getcwd()}')
+
