@@ -17,3 +17,5 @@ print(f'{s} - length is {len(s)} characters')
 print('Hello, GitHub')
 print('Hello, my friend')
 
+print('Work, work,work!!!')
+
