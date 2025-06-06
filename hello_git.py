@@ -13,4 +13,5 @@ while ind <= 9:
 
 s = 'Version Control System'
 print(f'{s} - length is {len(s)} characters')
+print('Hello from GITHUB')
 
