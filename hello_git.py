@@ -17,3 +17,4 @@ print(f'\nYour current directory: {os.getcwd()}')
 
 print(b.sum_numbers(1,2,3,4,5))
 print('Hello from GitHub')
+print('Hello from work')
