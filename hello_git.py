@@ -1,4 +1,5 @@
 import os
+import b
 
 print('Hello, Git!')
 print('Indexing it\'s important')
@@ -11,3 +12,5 @@ print(f'\nYour current directory: {os.getcwd()}')
 
 s = 'Version Control System'
 print(f'{s} - length is {len(s)} characters')
+
+print(b.sum_numbers(1,2,3,4,5))
